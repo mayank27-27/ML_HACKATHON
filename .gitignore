@@ -1,0 +1,24 @@
+# Raw GPS trip data stays local; provide it from an authorized source.
+dataset/
+
+# Local Python environments and generated files
+**/.venv/
+**/.venv*/
+**/__pycache__/
+*.py[cod]
+
+# Frontend dependencies and generated build output
+**/node_modules/
+**/dist/
+
+# Local environment files, credentials, editor/OS files, and duplicate backups
+.env
+.env.*
+!.env.example
+**/.DS_Store
+**/* 2.*
+
+# Unused starter-template images
+pathsnap_frontend/src/assets/hero.png
+pathsnap_frontend/src/assets/react.svg
+pathsnap_frontend/src/assets/vite.svg
